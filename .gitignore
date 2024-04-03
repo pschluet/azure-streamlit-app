@@ -161,3 +161,4 @@ cython_debug/
 
 set-env.sh
 .terraform*
+streamlit.zip
