@@ -15,7 +15,7 @@ Instructions for deploying from your local machine:
 1. Run the following commands
 ```
 source set-env.sh
-az login --service-principal --tenant $ARM_TENANT_ID -u $ARM_CLIENT_ID -p $ARM_CLIENT_SECRET
+az login
 cd infra
 terraform init
 terraform apply
